@@ -46,7 +46,7 @@ header .logo:after {
 	position: absolute;
 	top: 50%;
 	color: white;
-	font-family: "Reboto";
+	font-family: "Ubuntu";
 	width: 100%;
 	text-align: center;
 	font-size: 16px;
@@ -57,7 +57,7 @@ header nav>ul>li{
 	display: inline;
 }
 header nav>ul>li>a {
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	color: white;
 	font-size: 15px;
 	display: inline-block;
@@ -67,7 +67,7 @@ header nav>ul>li>a {
 header nav>ul>li>a:hover {
 	color: #F27A54;
 	text-decoration: underline;
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .search {
@@ -78,7 +78,7 @@ header nav>ul>li>a:hover {
 
 .search input[type="search"]{
 	padding: 5px 20px;
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 18px;
 	color: black;
 	border: 1px solid gray;
@@ -97,7 +97,7 @@ button.button.button-primary {
 	height: 40px;
 	border: 1px solid #0e58cf;
 	background: #0e58cf;
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 16px;
 	color: white;
 	transition: ease .4s all;
@@ -130,7 +130,7 @@ div.sidebar {
 
 }
 div.content {
-	width: calc(70% - 15px);
+	width: calc(100% - 215px);
 	min-height: 200px;
 	margin-left: 15px;
 }
@@ -140,7 +140,7 @@ div.sidebar .breadcrumb li {
 	margin-left: 10px;
 	margin-top: 10px;
 	position: relative;
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 11px;
 	color: black;
 
@@ -173,7 +173,7 @@ div.sidebar .size-filter {
 }
 
 div.sidebar .size-filter h4 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 14px;
 	color: black;
 	margin-bottom: 15px;
@@ -184,7 +184,7 @@ div.sidebar .size-filter h4 {
 }
 
 div.sidebar .filters {
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 12px; 
 	margin-top: 10px;
 	margin-left: 10px;
@@ -200,7 +200,7 @@ div.sidebar .brand-filter {
 }
 
 div.sidebar .brand-filter h4 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 14px;
 	color: black;
 	margin-bottom: 15px;
@@ -222,7 +222,7 @@ div.sidebar .brand-filter select {
     vertical-align: middle;
     font-size: 14px;
     border-bottom: 1px solid #e6eaf0;
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 }
 
 div.sidebar .price-filter {
@@ -234,7 +234,7 @@ div.sidebar .price-filter {
 }
 
 div.sidebar .price-filter h4 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 14px;
 	color: black;
 	margin-bottom: 15px;
@@ -254,7 +254,7 @@ div.sidebar .price-filter select {
     vertical-align: middle;
     font-size: 14px;
     border-bottom: 1px solid #e6eaf0;
-    font-family: "Raleway", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 div.sidebar .color-filter {
 	margin-top: 15px;
@@ -265,7 +265,7 @@ div.sidebar .color-filter {
 }
 
 div.sidebar .color-filter h4 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 14px;
 	color: black;
 	margin-bottom: 15px;
@@ -275,7 +275,7 @@ div.sidebar .color-filter h4 {
 
 div.sidebar .color-filter .color-yellow {
   padding-left: 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   margin-bottom: 5px; 
 }
@@ -290,7 +290,7 @@ div.sidebar .color-filter .color-yellow::before {
 
 div.sidebar .color-filter .color-red {
   padding-left: 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   margin-bottom: 5px; 
 }
@@ -306,7 +306,7 @@ div.sidebar .color-filter .color-red::before {
 
 div.sidebar .color-filter .color-purple {
   padding-left: 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   margin-bottom: 5px; 
 }
@@ -321,7 +321,7 @@ div.sidebar .color-filter .color-purple::before {
 
 div.sidebar .color-filter .color-black {
   padding-left: 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   margin-bottom: 5px; 
 }
@@ -336,7 +336,7 @@ div.sidebar .color-filter .color-black::before {
 
 div.sidebar .color-filter .color-blue {
   padding-left: 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   margin-bottom: 5px;
 
@@ -352,7 +352,7 @@ div.sidebar .color-filter .color-blue::before {
 }
 
 div.sidebar .genre-filter h4 {
-	font-family: "Raleway", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 14px;
 	color: black;
 	margin-bottom: 10px;
@@ -364,24 +364,55 @@ div.sidebar .genre-filter h4 {
 
 div.sidebar .genre-filter li {
   padding-left: 10px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 	font-size: 14px;
   margin-bottom: 10px;
 }
 
-div.content img {
-	display: inline;
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-bottom: 150px;
+div.content .items {
+	margin-right: 10px;
+ 	margin-bottom: 10px;
 	float: left;
-	height: 350px;
-	width: 350px;
+	width: calc(33.333% - 6.66px);
+	position: relative;
+}
+div.content .items img {
+  width: 100%;
+  display: block;
+}
+div.content .items:nth-child(3n) {
+  margin-right: 0;
 }
 
-div.content a>img .caption {
-	text-align:center;
-	display:inline-block;
-    text-decoration:none;
-    color:black;
+div.content .items a img.over {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .2s ease;
 }
+div.content .items a:hover img.over {
+  display: block;
+  opacity: 1;
+}
+
+@media (max-width: 400px) {
+  div.sidebar {
+    display: none;
+  }
+
+  div.content {
+    width: 100%;
+    margin: 0;
+  }
+  div.content .items:nth-child(3n) {
+    margin-right: inherit;
+  }
+  div.content .items:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  div.content .items {
+  	width: calc(50% - 5px);    
+  }
+  }
