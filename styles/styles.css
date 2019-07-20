@@ -1,4 +1,4 @@
-:::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background-color: #F4F4F4;
 }
 ::-webkit-scrollbar {
@@ -360,7 +360,7 @@ div.content .items a {
   text-decoration: none;
 }
 div.content .items p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 22px;
   text-decoration: none;
@@ -407,7 +407,7 @@ div.content .items .flag-discount {
   height: 24px;
   background-color: #cc0000;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 10px;
   text-align: center;
   line-height: 25px;
@@ -431,6 +431,9 @@ div.content .items .product-price {
 }
 .strong {
   font-weight: bold;
+}
+header nav .icon {
+  display: none;
 }
 /** Tablets **/
 @media (min-width: 426px) and (max-width: 768px) {
@@ -469,6 +472,34 @@ div.content .items .product-price {
   }
   header .logo:after {
     content: 'logo';
+  }
+  div.search {
+    display: none;
+  }
+  header nav .icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+  }
+  header nav {
+    position: fixed;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    padding-top: 100px;
+    transform: translateX(140px);
+    transition: all ease .3s;
+  }
+  header nav.opened {
+    background: rgba(50,50,50,0.95);
+    transform: translateX(0px);
+  }
+  header nav ul li {
+    display: block;
+    padding: 20px 0;
   }
 }
 
